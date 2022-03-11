@@ -14,6 +14,7 @@ class Snake:
     def __init__(self):
         self.segments = []
         self.initial_state()
+        self.head = self.segments[0]
 
     def initial_state(self):
         for initial_position in INITIAL_POSITIONS:
